@@ -1,0 +1,36 @@
+    @font-face {
+  font-family: 'Myanmar3';
+  src: url("/app/about/Myanmar3.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+        html,body{
+            width: full%;
+            height: 100%;
+            padding: 5px;
+            text-align: center;
+            position: relative;
+            font-family: 'Myanmar3';
+        }
+        
+        .btn {
+  background-color: sienna;
+  font-family: 'Myanmar3';
+  border: none;
+  color: white;
+  width: 50%;
+  padding: 10px 10px;
+  cursor: pointer;
+  font-size: 16px;
+  box-shadow: rgba(0, 0, 0, 0.70) 0px 5px 15px;
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: sienna;
+  font-family: 'Myanmar3';
+  box-shadow: rgba(0, 0, 0, 0.70) 0px 5px 15px;
+}
+
+
+				img {width: 240px; height: 240px; text-align: center; border: 2px solid; border-radius: 50%; box-shadow: rgba(0, 0, 0, 0.70) 0px 5px 15px;}
